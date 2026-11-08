@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+simulations/results/
+simulations/fresh_results/
+simulations/check_results/
+realdata/out/
+
+# Auto-loan dataset: obtain from cprm@gsb.columbia.edu, not redistributed
+realdata/data/AutoLoan/*.csv

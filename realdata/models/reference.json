@@ -1,0 +1,23 @@
+{
+  "description": "Real-data training configuration and reference table values.",
+  "print_training": {
+    "seed": 1,
+    "width": 256,
+    "dropout": 0.0,
+    "weight_decay": 1e-05,
+    "curvature_floor": 0.05,
+    "learner_lr": 0.001,
+    "adversary_lr": 0.01,
+    "batch_size": 500,
+    "epochs": 700,
+    "earlystop_epoch_zero_based": 656,
+    "iterate": "validation-moment earlystop"
+  },
+  "recorded_table_revenue_thousands": {
+    "Oracle": 1.1062,
+    "Firm": 0.8318,
+    "PRINT": 0.8921,
+    "KZ18": 0.1452,
+    "Regression": 0.0456
+  }
+}

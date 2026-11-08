@@ -1,0 +1,2 @@
+# Keep data files byte-identical to the originals (no CRLF->LF conversion)
+*.csv -text
